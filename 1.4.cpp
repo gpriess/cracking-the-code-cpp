@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void encodeSpaces(char * str, const char * replace, const int offset){
+void encodeSpaces(char* str, const char* replace, const int offset){
 	char * p = str;
 	int spaces = 0;
 	while(*p){
